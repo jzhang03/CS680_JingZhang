@@ -23,9 +23,9 @@ public class PrimeGeneratorTest {
     }
 
     @Test
-    public void primeFromNegative10To10() {
+    public void primeFromNegative20To20() {
         try{
-            PrimeGenerator gen = new PrimeGenerator(-10, 10);
+            PrimeGenerator gen = new PrimeGenerator(-20, 20);
             fail("Out of range");
         } catch(IllegalArgumentException ex) {
             assertEquals("Start number should bigger than 0", ex.getMessage());

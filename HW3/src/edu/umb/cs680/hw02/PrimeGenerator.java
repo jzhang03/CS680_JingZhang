@@ -23,7 +23,8 @@ public class PrimeGenerator {
 		}
 	}
 	
-	public LinkedList<Long> getPrimes(){ return primes; };
+	public LinkedList<Long> getPrimes(){ 
+		return primes; };
 	
 	protected boolean isEven(long n){
 		if(n%2 == 0){ return true; }
