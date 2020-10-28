@@ -28,7 +28,7 @@ public class PrimeGeneratorTest {
             PrimeGenerator gen = new PrimeGenerator(-20, 20);
             fail("Out of range");
         } catch(IllegalArgumentException ex) {
-            assertEquals("Start number should bigger than 0", ex.getMessage());
+            assertEquals("start number should bigger than 0", ex.getMessage());
         }
     }
 
@@ -38,7 +38,7 @@ public class PrimeGeneratorTest {
             PrimeGenerator gen = new PrimeGenerator(100, 1);
             fail("Out of range");
         } catch (IllegalArgumentException ex) {
-            assertEquals("Start number shoule be smaller than end number", ex.getMessage());
+            assertEquals("start number shoule be smaller than end number", ex.getMessage());
         }
     }
 }

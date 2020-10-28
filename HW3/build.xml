@@ -1,9 +1,7 @@
 <?xml version="1.0"?>
 <!--
   To run this build script, type: 
-
   ant -f hw.xml
-
   on a shell. 
 -->
 

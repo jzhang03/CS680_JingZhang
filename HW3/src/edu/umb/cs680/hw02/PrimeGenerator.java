@@ -13,13 +13,13 @@ public class PrimeGenerator {
 			this.to = to;
 		}
 		else if(from < 1) {
-			throw new IllegalArgumentException("Start number should bigger than 0");
+			throw new IllegalArgumentException("start number should bigger than 0");
 		}
 		else if(to < from) {
-			throw new IllegalArgumentException("Start number shoule be smaller than end number");
+			throw new IllegalArgumentException("start number shoule be smaller than end number");
 		}
 		else{
-			throw new RuntimeException("Wrong input values: from=" + from + " to=" + to);
+			throw new RuntimeException("wrong input values: from=" + from + " to=" + to);
 		}
 	}
 	
