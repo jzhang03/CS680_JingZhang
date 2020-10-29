@@ -1,8 +1,13 @@
 <?xml version="1.0"?>
 <!--
-  To run this build script, type: 
-  ant -f hw.xml
-  on a shell. 
+	CS680: HW4
+	Copyright 2020 Jing Zhang <Jing.Zhang002@umb.edu>
+	Git Repositories: https://github.com/jzhang03/CS680_JingZhang
+	Git Name: jzhang03
+
+	To run this build script, type: 
+	ant -f hw.xml
+	on a shell. 
 -->
 
 <project name="Stdents" basedir="."  default="clean">
