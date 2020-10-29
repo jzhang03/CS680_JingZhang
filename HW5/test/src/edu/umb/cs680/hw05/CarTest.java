@@ -34,7 +34,7 @@ public class CarTest {
     
     @Test
     public void verifyCarEqualityWithMakeModelYear3() {
-        String[] expected = {"Toyota", "RAV4", "2017"};
+        String[] expected = {"Acura", "RDX", "2017"};
         Car actual = new Car("Acura", "RDX", 6000, 2017, 34000f);
         assertArrayEquals(expected, carToStringArray(actual));
     }
