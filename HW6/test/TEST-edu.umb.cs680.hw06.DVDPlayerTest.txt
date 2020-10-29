@@ -1,0 +1,9 @@
+Testcase: edu.umb.cs680.hw06.DVDPlayerTest
+Test: playButtonPushedTest() took 18 milli sec(s)
+Test: stopButtonPushedTest() took 1 milli sec(s)
+Test: InstanceEquivalentTest() took 1 milli sec(s)
+Test: openCloseButtonPushedTest() took 0 milli sec(s)
+Test: changeStateTest() took 1 milli sec(s)
+Tests run: 5, Failures: 0, Skipped: 0, Aborted: 0, Time elapsed: 29 milli sec(s)
+------------- Standard Output ---------------
+Drawer closedStart playingStoppedDrawer opened------------- ---------------- ---------------
