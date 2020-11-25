@@ -46,7 +46,7 @@ public class FileSystemTest {
     public void addRootDirTest() {
         Directory root = new Directory(null, "Root", 1, this.Date);
         FileSystem sys = FileSystem.getFileSystem();
-        sys.addRootDir(root);
+        sys.appendRootDir(root);
         LinkedList<Directory> actual = sys.getRootDirs();
         Directory[] expected = {root};
         assertArrayEquals(expected, this.LinkedListToArray(actual));

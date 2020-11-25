@@ -11,10 +11,14 @@ import java.util.LinkedList;
 
 public class FileSystem {
 
-    private LinkedList<Directory> rootDirs = new LinkedList<Directory>();
+    private LinkedList<Directory> rootDir = new LinkedList<Directory>();
 
-    private FileSystem(){}
+    private FileSystem(){
+    	
+    }
+    
     private static FileSystem fileSystem = null;
+    
     public static FileSystem getFileSystem(){
         if(fileSystem==null)
             fileSystem = new FileSystem();
@@ -22,11 +26,11 @@ public class FileSystem {
     }
 
     public LinkedList<Directory> getRootDirs() {
-        return rootDirs;
+        return rootDir;
     }
 
-    public void addRootDir(Directory rootDir) {
-        this.rootDirs.add(rootDir);
+    public void appendRootDir(Directory root) {
+        this.rootDir.add(root);
     }
 
 }
