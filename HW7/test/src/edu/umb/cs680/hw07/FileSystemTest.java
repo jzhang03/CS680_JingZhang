@@ -27,6 +27,7 @@ public class FileSystemTest {
         }
         return init;
     }
+    
     @Order(1)
     @Test
     public void sameFileSystemTest() {
@@ -34,17 +35,19 @@ public class FileSystemTest {
         FileSystem sysB = FileSystem.getFileSystem();
         assertSame(sysA, sysB);
     }
+    
     @Order(2)
-    @Test
+    @Test   
     public void getRootDirsTest() {
         FileSystem actual = FileSystem.getFileSystem();
         Directory[] expected = {};
         assertArrayEquals(expected, this.LinkedListToArray(actual.getRootDirs()));
     }
+    
     @Order(3)
     @Test
     public void addRootDirTest() {
-        Directory root = new Directory(null, "Root", 1, this.Date);
+        Directory root = new Directory(null, "Root", 0, this.Date);
         FileSystem sys = FileSystem.getFileSystem();
         sys.appendRootDir(root);
         LinkedList<Directory> actual = sys.getRootDirs();
