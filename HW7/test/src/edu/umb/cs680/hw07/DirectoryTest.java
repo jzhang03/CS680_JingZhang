@@ -11,6 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
+
 import org.junit.jupiter.api.BeforeAll;
 import java.time.LocalDateTime;
 
@@ -60,6 +61,13 @@ public class DirectoryTest {
     public void verifyDirectoryEqualityRoot() {
         String[] expected = {"true", "Root", "0", Date.toString(), null, "2", "21"};
         Directory actual = root;
+        assertArrayEquals(expected, dirToStringArray(actual));
+    }
+    
+    @Test
+    public void verifyDirectoryEqualityApplications() {
+        String[] expected = {"true", "Applications", "0", Date.toString(), "Root", "2", "3"};
+        Directory actual = applications;
         assertArrayEquals(expected, dirToStringArray(actual));
     }
 
