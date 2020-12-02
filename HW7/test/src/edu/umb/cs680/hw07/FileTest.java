@@ -51,21 +51,21 @@ public class FileTest {
         assertArrayEquals(expected, fileToStringArray(actual));
     }
 
-        @Test
+    @Test
     public void verifyFileEqualityD() {
         String[] expected = {"false", "d", "2", Date.toString(), "Home"};
         File actual = this.d;
         assertArrayEquals(expected, fileToStringArray(actual));
     }
 
-        @Test
+    @Test
     public void verifyFileEqualityE() {
         String[] expected = {"false", "e", "5", Date.toString(), "Code"};
         File actual = this.e;
         assertArrayEquals(expected, fileToStringArray(actual));
     }
 
-        @Test
+    @Test
     public void verifyFileEqualityF() {
         String[] expected = {"false", "f", "10", Date.toString(), "Code"};
         File actual = this.f;
