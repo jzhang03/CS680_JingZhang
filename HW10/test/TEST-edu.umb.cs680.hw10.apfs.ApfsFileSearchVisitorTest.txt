@@ -1,0 +1,8 @@
+Testcase: edu.umb.cs680.hw10.apfs.ApfsFileSearchVisitorTest
+Test: fileSearchVisitorA() took 1 milli sec(s)
+Test: fileSearchVisitorB() took 0 milli sec(s)
+Test: fileSearchVisitorC() took 0 milli sec(s)
+Test: fileSearchVisitorD() took 0 milli sec(s)
+Test: fileSearchVisitorE() took 0 milli sec(s)
+Test: fileSearchVisitorF() took 0 milli sec(s)
+Tests run: 6, Failures: 0, Skipped: 0, Aborted: 0, Time elapsed: 2 milli sec(s)
