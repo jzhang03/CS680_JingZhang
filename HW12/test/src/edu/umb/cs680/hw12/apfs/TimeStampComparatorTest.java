@@ -59,11 +59,11 @@ public class TimeStampComparatorTest {
     
 	@Test
 	public void verifyOrderEquality() {
-        code.setModifiedTimestamp(LocalDateTime.of(2012, 5, 2, 6, 0));
-        c.setModifiedTimestamp(LocalDateTime.of(2013, 7, 12, 6, 30));
-        d.setModifiedTimestamp(LocalDateTime.of(2013, 5, 3, 6, 0));
-        x.setModifiedTimestamp(LocalDateTime.of(2013, 7, 12, 6, 0));
-		String[] expected = {"c", "x", "d", "Code"};
+        code.setModifiedTimestamp(LocalDateTime.of(2017, 2, 11, 5, 0));
+        c.setModifiedTimestamp(LocalDateTime.of(2018, 4, 10, 6, 30));
+        d.setModifiedTimestamp(LocalDateTime.of(2019, 3, 8, 5, 0));
+        x.setModifiedTimestamp(LocalDateTime.of(2020, 2, 7, 4, 0));
+		String[] expected = {"x", "d", "c", "Code"};
 		LinkedList<ApfsElement> children = home.getChildren(new TimeStampComparator());
         String[] actual = new String[children.size()];
         for(int i =0; i < children.size(); i++)
