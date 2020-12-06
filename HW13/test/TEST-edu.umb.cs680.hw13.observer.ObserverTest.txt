@@ -1,0 +1,8 @@
+Testcase: edu.umb.cs680.hw13.observer.ObserverTest
+Test: PiechartObserverDJIATest() took 1 milli sec(s)
+Test: TableObserverStockTest() took 0 milli sec(s)
+Test: TableObserverDJIATest() took 1 milli sec(s)
+Test: ThreeDObserverDJIATest() took 0 milli sec(s)
+Test: ThreeDObserverStockTest() took 0 milli sec(s)
+Test: PiecharObserverStockTest() took 0 milli sec(s)
+Tests run: 6, Failures: 0, Skipped: 0, Aborted: 0, Time elapsed: 4 milli sec(s)
